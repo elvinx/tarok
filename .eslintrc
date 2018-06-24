@@ -1,0 +1,50 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "script",
+        "ecmaFeatures": {
+            "jsx": false,
+            "impliedStrict": false
+        }
+    },
+    "extends": [
+        "eslint-config-airbnb-base/rules/best-practices",
+        "eslint-config-airbnb-base/rules/es6",
+        "eslint-config-airbnb-base/rules/node",
+        "eslint-config-airbnb-base/rules/style"
+    ],
+    "rules": {
+        "arrow-body-style": [2, "as-needed"],
+        "brace-style": [2, "1tbs"],
+        "comma-dangle": [2, "never"],
+        "class-methods-use-this": 0,
+        "consistent-return": 0,
+        "comma-style": [2, "last"],
+        "comma-spacing": [2, { "after": true }],
+        "default-case": 1,
+        "func-names": [1, "always"],
+        "global-require": 1,
+        "indent": [2, 4, { "SwitchCase": 1 }],
+        "max-len": [2, 150],
+        "new-cap": 1,
+        "no-fallthrough": 1,
+        "no-confusing-arrow": [2, { "allowParens": true }],
+        "no-constant-condition": 2,
+        "no-else-return": 0,
+        "no-new": 1,
+        "no-param-reassign": [2, { "props": false }],
+        "no-plusplus": 0,
+        "no-throw-literal": 1,
+        "no-unused-vars": [2, { "vars": "all" }],
+        "no-use-before-define": 0,
+        "no-underscore-dangle": 0,
+        "object-shorthand": [2, "properties"],
+        "semi": [2, "always"],
+        "keyword-spacing": [2, { "before": true }],
+        "space-before-blocks": [2, "always"],
+        "strict": [2, "global"],
+        "quotes": [2, "single"],
+        "vars-on-top": 0
+    },
+    "globals": {}
+}
